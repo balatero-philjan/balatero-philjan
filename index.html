@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RESUME</title>
+  <style>
+	*{
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+	font-family: montserrat;
+}
+body{
+	background: #00b6c4;
+}
+.container{
+	background: #f5f5f5;
+	max-width: 800px;
+	margin: 60px auto;
+	height: 1250px;
+	padding: 20px;
+	box-shadow: 0 2px 20px rgba(0,0,0,0,3);
+}
+.header{
+	text-align: center;
+}
+.header h1{
+	margin-bottom: 10px;
+}
+.header h3{
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 500;
+}
+.img-area{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 25px auto;
+	border: 15px groove deepskyblue;
+}
+.img-area img{
+	width: 100%;
+}
+.main{
+	display: flex;
+	flex-wrap: wrap;
+}
+.left{
+	flex: 1;
+	padding: 30px;
+}
+.left p{
+	line-height: 2;
+}
+.left ul li{
+	line-height: 2;
+}
+h2{
+	background: #00b6c4;
+	padding: 15px;
+	color: #fff;
+	margin: 30px 0;
+	font-size: 20px;
+	border-radius: 0 50px 50px 0;
+}
+.right{
+	flex: 1;
+	padding: 30px;
+}
+.right h3{
+	margin-bottom: 15px;
+}
+.right p{
+	line-height: 2.9;
+}
+.right ul li{
+	line-height: 2;
+}
+	
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.container{
+		width: 95%;
+		height: auto;
+	}
+	h2{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 600px){
+  .main{
+	  flex-direction: column;
+  }
+  .left,
+  .right{
+	  flex: none;
+	  width: 100%;
+  }
+  .container{
+     width: 96%;
+	 height: auto;
+  }
+  h2{
+	  font-size: 15px;
+  }
+}	
+  </style>
+</head>
+<body>
+   
+   <div class="container">
+     <div class="header">
+	   <div class="img-area">
+	     <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/384471199_1285849455469080_5246216249852127221_n.jpg?stp=dst-jpg_p168x128&_nc_cat=111&ccb=1-7&_nc_sid=510075&_nc_eui2=AeF2sdp8wgYVqPcIDZjM54_44dLWIT3uyu_h0tYhPe7K71o3CLgFP3pkKSsWoBKvdWZ2q0_TbFtXJg1_IplJHBfm&_nc_ohc=MPI2WR686CAAX-bSVlN&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRloFeXO8dTBwF6PqBuVPFTPbpsLzsMlaolWDBqRxKfjQ&oe=6588E414" alt="">
+   </div>
+   <h1>Philjan Balatero</h1>
+   <h3>Full-stack Web Developer</h3>
+   </div>
+   
+   <div class="main">
+     <div class="left">
+	   <h2>Personal Information</h2>
+	   <p><strong>Name:</strong>Philjan Balatero</p>
+	   <p><strong>Age:</strong>18</p>
+	   <p><strong>Email:</strong>balaterophiljan.kld@gmail.com</p>
+	   <p><strong>Phone:</strong>123 456 789</p>
+	   <h2>Hobbies</h2>
+	   <ul>
+	     <li>Online games</li>
+		  <li>Guitar</li>
+		   <li>Drawing</li>
+		    <li>Watching anime/movie</li>
+			 <li>Cooking</li>
+	   </ul>
+	   <h2>Education</h2>
+	   <h3>Elementery</h3>
+	   <p>Sunnybrooke Elemenntary School, 2016-2017</p>
+	   <h3>Humanities in Social Science</h3>
+	   <p>Philippine Christian University, 2022-2023</p>
+	   <h3>BS in Information System</h3>
+	   <p>Kolehiyo ng Lungsod ng Dasma, 2023-2024</p>
+	  </div>
+	  
+	  <div class="right">
+	    <h2>Work Experiences</h2>
+		<h3>Riot Company</h3>
+		<p><strong>Position:</strong>Game Designer</p>
+		<p><strong>Duration:</strong>2019-2021</p>
+		<ul>
+		  <li>Design T1 Skin 2014</li>
+		  <li>Design T1 Skin 2017</li>
+		  <li>Design T1 Skin 2023</li>
+		</ul><br>
+		<h3>Mobile Legends Company</h3>
+		<p><strong>Position:</strong>Game Designer</p>
+		<p><strong>Duration:</strong>2022-2023</p>
+		<ul>
+		  <li>Design Venom skins</li>
+		  <li>Design SABER Skins</li>
+		  <li>Design Dragon Tamer Skins</li>
+		</ul>
+	  </div>
+	</div>
+ </div>
+
+ 
+ </body>
+ </html>
